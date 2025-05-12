@@ -136,6 +136,8 @@ fun ItemCard(item: Categories, onItemClick: (Categories) -> Unit) {
             } else if (item.subcategories.isNotEmpty()) {
                 Text(text = "${item.subcategories.size} Items", style = MaterialTheme.typography.bodyMedium)
             }
+            Text(text = item.name.toString(), style = MaterialTheme.typography.headlineSmall)
+
         }
     }
 }

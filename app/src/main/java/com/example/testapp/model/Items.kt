@@ -9,6 +9,7 @@ data class Items (
 
   @SerialName("id"    ) var id    : Int?             = null,
   @SerialName("name"  ) var name  : String?          = null,
+  @SerialName("price"  ) var price  : Int?          = null,
   @SerialName("items" ) var items : ArrayList<Items> = arrayListOf()
 
 )
